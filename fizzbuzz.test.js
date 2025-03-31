@@ -12,3 +12,7 @@ test("fizzbuzz(3)", (t) => {
   // ⬆️ Vérifie que le résultat de fizzbuzz(3) est exactement "Fizz"
   // Si le test échoue, une erreur sera affichée
 });
+
+test("fizzbuzz(15)", (t) => {
+  assert.strictEqual(fizzbuzz(15), "Fizzbuzz");
+});
